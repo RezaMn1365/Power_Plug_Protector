@@ -1,0 +1,24 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+i                                                                 0160h        2
+i1                                                                0162h        2
+X                                                                 0164h        2
+NUM                                                               0166h        2
+SEGCODE                                                           0168h       42
+OUV                                                               0192h       12
+SCALE                                                             019Eh        6
+OVERFLOWSCALE                                                     01A4h        6
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+LED                                                               R4,R5        2
+MODE                                                              R6,R7        2
+MODESELECT                                                        R8,R9        2
+OVERFLOW                                                          R10,R11      2
+AD                                                                R12,R13      2
